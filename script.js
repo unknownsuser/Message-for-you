@@ -33,3 +33,38 @@ document.addEventListener("click", () => {
     const music = document.getElementById("bgMusic");
     music.play().catch(() => {});
 }, { once: true });
+// ===== Music Button =====
+
+const music = document.getElementById("bgMusic");
+const musicBtn = document.getElementById("musicBtn");
+
+function toggleMusic() {
+
+    if (music.paused) {
+
+        music.play();
+
+        musicBtn.innerHTML = "🔇 Music OFF";
+
+    } else {
+
+        music.pause();
+
+        musicBtn.innerHTML = "🎵 Music ON";
+
+    }
+
+}
+
+// First click par music automatically play hoga
+document.addEventListener("click", () => {
+
+    if (music.paused) {
+
+        music.play().catch(() => {});
+
+        musicBtn.innerHTML = "🔇 Music OFF";
+
+    }
+
+}, { once: true });
