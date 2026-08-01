@@ -29,3 +29,7 @@ function moveButton(){
     btn.style.left = x + "px";
     btn.style.top = y + "px";
 }
+document.addEventListener("click", () => {
+    const music = document.getElementById("bgMusic");
+    music.play().catch(() => {});
+}, { once: true });
