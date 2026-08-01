@@ -10,8 +10,7 @@ A cute Friendship Day surprise website made with ❤️ using HTML, CSS, and Jav
 - 📱 Mobile Responsive
 
 ## 🚀 Live Demo
-https://Harshit.github.io/unknown user/
-
+https://unknownsususer.github.io/Message-for-you/
 ## 🛠️ Built With
 - HTML5
 - CSS3
