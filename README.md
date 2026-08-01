@@ -17,4 +17,4 @@ https://unknownsususer.github.io/Message-for-you/
 - JavaScript
 
 ## ❤️ Made With Love
-Happy Friendship Day, Laxmi 🌸or-you
+Happy Friendship Day, Laxmi 🌸
